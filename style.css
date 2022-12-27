@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: blueviolet; */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,112,121,1) 35%, rgba(0,226,255,1) 100%);color: white;
+    font-family: sans-serif;
+}
+.wrapper{
+    padding: 10px;
+    max-width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.wrapper > div{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    padding: 30px;
+    max-width: 1000px;
+}
+.wrapper > div:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+}
